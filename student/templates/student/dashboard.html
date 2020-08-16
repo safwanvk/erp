@@ -1,0 +1,22 @@
+<!-- Sidebar -->
+    <div class="sidebar-fixed position-fixed">
+
+      <a class="logo-wrapper waves-effect">
+        <img src="" class="img-fluid" alt="">
+      </a>
+
+      <div class="list-group list-group-flush">
+        <a href="{% url 'student:index' %}" class="list-group-item active waves-effect">
+          <i class="fas fa-chart-pie mr-3"></i>Home</a>
+        <a href="{% url 'student:view-attendence' %}" class="list-group-item list-group-item-action waves-effect">
+          <i class="fas fa-user mr-3"></i>Attendence</a>
+        <a href="{% url 'student:attendence-details' %}" class="list-group-item list-group-item-action waves-effect">
+          <i class="fas fa-map mr-3"></i>Attendence By Subject</a>
+        <a href="{% url 'student:view-marks' %}" class="list-group-item list-group-item-action waves-effect">
+          <i class="fas fa-money-bill-alt mr-3"></i>Marks</a>
+        <a href="{% url 'student:view-timetable' %}" class="list-group-item list-group-item-action waves-effect">
+          <i class="fas fa-money-bill-alt mr-3"></i>Time Table</a>
+      </div>
+
+    </div>
+<!-- Sidebar -->

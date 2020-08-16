@@ -6,3 +6,5 @@ from django.http import HttpResponse
 def index(request):
     return render(request, 'student/index.html')
 
+def view_attendence(request):
+    return render(request, 'student/attendence.html')

@@ -16,3 +16,6 @@ def attendence_details(request):
 
 def view_marks(request):
     return render(request, 'student/marks.html')
+
+def view_timetable(request):
+    return render(request, 'student/timetable.html')

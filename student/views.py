@@ -13,3 +13,6 @@ def view_attendence(request):
 
 def attendence_details(request):
     return render(request, 'student/attendence_details.html')
+
+def view_marks(request):
+    return render(request, 'student/marks.html')
